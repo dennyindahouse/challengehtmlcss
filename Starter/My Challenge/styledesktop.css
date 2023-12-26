@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.desktopview {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.attribution {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 17px;
+}
+
+img {
+  width: 280px;
+  border-radius: 10px;
+}
